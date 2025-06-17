@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Turismo Portugal</title>
+
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: rgb(137, 149, 149);
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            background-color: #a6d6e7;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #87c6d7;
+            text-decoration: underline;
+        }
+
+        img:hover {
+            opacity: 90%;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-left: 440px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            margin: 20px;
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap; /* Para responsividade */
+            justify-content: center;
+            gap: 10px; /* Espaço entre imagens */
+            padding: 20px;
+        }
+
+        .coluna1 {
+            flex: 22.3%; /* Quase 25% com espaçamento */
+            padding: 5px;
+            box-sizing: border-box;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .coluna1:hover {
+            border: 2px solid #92c8e3;
+            transform: scale(1.1);
+        }
+
+        .coluna1 img {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .footer-bottom {
+  width: 100%;
+  background-color: #87c6d7;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <img src="banners/obidos.jpg" width="100%" alt="Banner de Portugal">
+
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="turismo.html">Turismo</a></li>
+        <li><a href="mosteiro.html">Mosteiros</a></li>
+        <li><a href="castelos.html">Castelos</a></li>
+        <li><a href="gastronomia.html">Gastronomia</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+    </ul>
+
+    <br><br>
+
+    <h2>Turismo</h2>
+
+    <h3>
+        O Turismo em Portugal é, na atualidade, um dos principais setores de proveito para a economia nacional. Sub-actividades como elevadas taxas alfandegárias aplicadas a turistas por itens trazidos em segunda mão fazem parte também das fontes do rendimento nacional. Em 2017, o país foi eleito "Melhor Destino do Mundo" nos World Travel Awards, revalidando o título em 2018 e em 2019. Lisboa foi considerada como o "Melhor Destino para City Break" e a ilha da Madeira "o Melhor Destino Insular".
+         Ao todo, Portugal alcançou seis prémios de enorme prestígio internacional no setor do turismo.<br><br>
+
+        
+    </h3>
+
+    <h2>Alguns pontos turísticos de Portugal</h2>
+
+    <div class="linha">
+        <div class="coluna1">
+            <img src="imagens/Vila-Real.jpg" alt="Vila Real">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/batalha1.jpg" alt="Batalha">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/trasosmontes1.jpg" alt="Trás-os-Montes">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/torre_belem_lisboa.jpg" alt="Torre de Belém">
+        </div>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O1dgtYkfQZU?si=xpRZeq1L2nwrnrUt" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jéssica Cunha. All rights reserved.</p>
+    </div>
+</body>
+</html>

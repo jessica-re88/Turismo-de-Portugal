@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Turismo Portugal</title>
+
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(137, 149, 149);
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            background-color: #a6d6e7;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #87c6d7;
+            text-decoration: underline;
+        }
+
+        img:hover {
+            opacity: 90%;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-left: 440px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            margin: 20px;
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap; /* Para responsividade */
+            justify-content: center;
+            gap: 10px; /* Espaço entre imagens */
+            padding: 20px;
+        }
+
+        .coluna1 {
+            flex: 22.3%; /* Quase 25% com espaçamento */
+            padding: 5px;
+            box-sizing: border-box;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .coluna1:hover {
+            border: 2px solid #90bde7;
+            transform: scale(1.1);
+        }
+
+        .coluna1 img {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .footer-bottom {
+  width: 100%;
+  background-color: #87c6d7;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <img src="banners/portugal_banner.jpg" width="100%" alt="Banner de Portugal">
+
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="turismo.html">Turismo</a></li>
+        <li><a href="mosteiro.html">Mosteiros</a></li>
+        <li><a href="castelos.html">Castelos</a></li>
+        <li><a href="gastronomia.html">Gastronomia</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+    </ul>
+
+    <br><br>
+
+    <h2>Portugal e Beleza</h2>
+
+    <h3>
+        Portugal surge em sexto, logo a seguir à Grécia. De entre as maravilhas portuguesas, são destacados principalmente a beleza das paisagens naturais, fazendo referência às ilhas dos Açores e Madeira,
+        às paisagens serenas do Alentejo e à fantasia mágica que é Sintra. Uma referência às duas grandes cidades portuguesas também não podia faltar. Apesar de considerar que os centros históricos do Porto 
+        e Lisboa foram muito negligenciados, a costa ribeirinha foi designada como uma das grandes atrações das duas cidades.<br><br>
+
+        Top 10 países mais bonitos do Mundo: <br><br>
+        1. Itália<br>
+        2. Espanha<br>
+        3. França<br>
+        4. Austrália<br>
+        5. Grécia<br>
+        6. Portugal<br>
+        7. Estados Unidos da América<br>
+        8. Brasil<br>
+        9. África do Sul<br>
+        10. Alemanha
+    </h3>
+
+    <h2>Portugal e Seus Encantos</h2>
+
+    <div class="linha">
+        <div class="coluna1">
+            <img src="imagens/Vila-Real.jpg" alt="Vila Real">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/batalha1.jpg" alt="Batalha">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/trasosmontes1.jpg" alt="Trás-os-Montes">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/torre_belem_lisboa.jpg" alt="Torre de Belém">
+        </div>
+    </div>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/O1dgtYkfQZU?si=xpRZeq1L2nwrnrUt" 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jéssica Cunha. All rights reserved.</p>
+    </div>
+</body>
+</html>

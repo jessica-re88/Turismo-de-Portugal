@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal Turismo Portugal</title>
+
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: rgb(137, 149, 149);
+            margin: 0;
+            padding: 0;
+            line-height: 1.5;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 10px;
+            background-color: #a6d6e7;
+            display: flex;
+            justify-content: center; /* Centraliza horizontalmente */
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #87c6d7;
+            text-decoration: underline;
+        }
+
+        img:hover {
+            opacity: 90%;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 30px;
+            margin-left: 440px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        h3 {
+            margin: 20px;
+        }
+
+        .linha {
+            display: flex;
+            flex-wrap: wrap; /* Para responsividade */
+            justify-content: center;
+            gap: 10px; /* Espaço entre imagens */
+            padding: 20px;
+        }
+
+        .coluna1 {
+            flex: 22.3%; /* Quase 25% com espaçamento */
+            padding: 5px;
+            box-sizing: border-box;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .coluna1:hover {
+            border: 2px solid #92c8e3;
+            transform: scale(1.1);
+        }
+
+        .coluna1 img {
+            width: 100%;
+            height: 200px;
+            display: block;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .footer-bottom {
+  width: 100%;
+  background-color: #87c6d7;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <img src="banners/castelosantamaria.jpg" width="100%" alt="Banner de Portugal">
+
+    <ul>
+        <li><a href="index.html">Homepage</a></li>
+        <li><a href="turismo.html">Turismo</a></li>
+        <li><a href="mosteiro.html">Mosteiros</a></li>
+        <li><a href="castelos.html">Castelos</a></li>
+        <li><a href="gastronomia.html">Gastronomia</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+    </ul>
+
+    <br><br>
+
+    <h2>Visite os castelos de Portugal</h2>
+
+    <h3>
+        Os castelos são atracções turísticas imperdíveis na Europa. Neles respiramos história, revivemos batalhas, 
+        conhecemos lugares espectaculares e libertamos nossa imaginação.
+São milhares de fortificações que foram erguidas na Idade Média e estão espalhadas por 
+todo Velho Continente. Após muito trabalho e muitos castelos percorridos, elaboramos uma 
+lista com os dez castelos mais bonitos de Portugal.<br><br>
+
+<ol>
+    <li>Castelo de Santa Maria da Feira (Norte)</li><br>
+    <h4>Por estar na região onde nasceu o Reino de Portugal é um castelo de grande importância histórica
+         e considerado um dos exemplos mais notáveis da arquitectura militar medieval.
+          As importantes obras de restauração nos anos 40 devolveram a dignidade que sempre
+         mereceu. Por estar envolto por um parque com árvores centenárias que coexiste 
+         harmoniosamente com as muralhas medievais, os quatro imponentes torreões parecem erguerem-se 
+         altaneiros do meio da floresta. No interior há uma extensa praça com um gramado muito bem cuidado.
+          Não deixe de visitar a Quinta do Castelo que fica mesmo junto a muralha e apresenta muitas atracções, 
+        como uma ponte e uma gruta que remetem a Gaudí.<br></h4>
+        <h5>Castelo de Santa Maria da Feira, Porto, Portugal</h5><br>
+        
+        <li>Castelo de Guimarães (Norte)</li><br>
+        <h4>Muitos cometem o pecado de vir a Portugal e não conhecer a simpática vila onde nasceu o Reino de Portugal.
+             O castelo foi construído no século X pela Condessa Mumadona (e não por Dom Afonso Henriques como muitos acreditam) 
+             para proteger o mosteiro que era frequentemente atacado pelos Mouros. Após as merecidas obras de restauração, mostra-se 
+             imponente e com toda importância que teve outrora quando foi palco de façanhas históricas e heróicas. O Paço dos Duques
+              de Bragança, que fica mesmo ao lado do castelo é simplesmente belo. 
+            O centro histórico de Guimarães está repleto de atracções interessantes, como as praças, capelas, conventos, igrejas e casa
+             senhoriais. Imperdível!<br></h4>
+            <h5>Castelo de Guimarães, Portugal</h5><br>
+
+            <li>Castelo de Porto de Mós (Centro) (Norte)</li><br>
+            <h4>Envolto pela bela paisagem da Serra D´Aire e localizado numa região repleta de monumentos históricos,
+                 como o Castelo de Ourém, o Convento de Cristo em Tomar, o Santuário de Fátima e os Mosteiros de Alcobaça 
+                 e da Batalha, este castelo apresenta uma arquitectura muito mais palaciana do que propriamente militar.
+                  Apresenta alguns elementos renascentistas, mas as evidências 
+                mais fortes são as góticas quatrocentistas que estão bem evidentes na fachada sul.<br></h4>
+               <h4>Sofreu danos consideráveis após o terremoto de 1755 e foi recuperado na década de 70 após 
+                ser inserido no selecto grupo dos “Monumentos Nacionais de Portugal”.</h4>
+    </ol>
+
+    </h3>
+
+    <h2>Castelos</h2>
+
+    <div class="linha">
+        <div class="coluna1">
+            <img src="imagens/dourominho.jpg" alt="Vila Real">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/saojorge.jpg" alt="Batalha">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/santamaria.jpg" alt="Trás-os-Montes">
+        </div>
+        <div class="coluna1">
+            <img src="imagens/marvao.jpg" alt="Torre de Belém">
+        </div>
+    </div>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7sCMC2T7WRY?si=p95ls6Doicgx0643" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Jéssica Cunha. All rights reserved.</p>
+    </div>
+</body>
+</html>
